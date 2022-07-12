@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to react-text-expandCollapse 👋</h1>
+<h1 align="center">Welcome to react-text-expand-collapse 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000" />
   <a href="#" target="_blank">
@@ -30,18 +30,20 @@ npm run build
 ## 使用
 
 ```sh
-import TextExpand from 'react-text-expandCollapse/src/index';
+import TextExpand from 'react-text-expand-collapse/src/index';
 ```
 （注：如果没有安装sass，请先安装sass。`npm install node-sass sass --save-dev`）
 
 ```sh
-import TextExpand from 'react-text-expandCollapse/src/index'
+import TextExpand from 'react-text-expand-collapse/src/index'
 ```
+
+1.示例
 
 ```sh
 import * as React from "react";
 import {createRoot} from 'react-dom/client';
-import TextExpand from 'react-text-expandCollapse/src/index';
+import TextExpand from 'react-text-expand-collapse/src/index';
 
 // 示例文字
 const str: string = '金杯里装的名酒，每斗要价十千；玉盘中盛的精美菜肴，收费万钱。胸中郁闷啊，我停杯投箸吃不下；拔剑环顾四周，我心里委实茫然。想渡黄河，冰雪堵塞了这条大川；要登太行，莽莽的风雪早已封山。像姜尚垂钓溪，闲待东山再起；伊尹乘舟梦日，受聘在商汤身边。何等艰难！何等艰难！歧路纷杂，真正的大道究竟在哪边？相信总有一天，能乘长风破万里浪；高高挂起云帆，在沧海中勇往直前！'
@@ -68,9 +70,11 @@ const App = () => {
 const container = document.getElementById('root');
 const root = createRoot(container);
 root.render(<App />);
-
 ```
 
+2.效果
+
+![gif1.gif](https://s2.loli.net/2022/07/12/d5tlGyKVjrZhsWk.gif)
 
 ## API
 

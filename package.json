@@ -1,5 +1,5 @@
 {
-  "name": "react-text-expandCollapse",
+  "name": "react-text-expand-collapse",
   "version": "0.0.1",
   "description": "文字展开收起组件",
   "main": "/src/index.tsx",
