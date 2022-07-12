@@ -9,7 +9,6 @@ const str: string = '金杯里装的名酒，每斗要价十千；玉盘中盛�
 
 
 const App = () => {
-    // 查看全部
     return (
         <div style={{width: 500, margin: '20px auto'}}>
             <TextExpand
